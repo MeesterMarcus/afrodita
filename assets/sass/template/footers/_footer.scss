@@ -70,7 +70,7 @@
 .copyright-wrap {
     padding: 22px 0;
     background-size: 100% auto;
-    background-color: #53443D;
+    background-color: #1a1a1a;
 
 }
 
@@ -330,7 +330,7 @@
         max-width: 1720px;
         display: block;
         margin: auto;
-        border: 1px solid #53443D;
+        border: 1px solid #1a1a1a;
         border-bottom: 1px solid transparent;
 
         @media(max-width: 1499px) {
@@ -352,7 +352,7 @@
     .copyright-wrap {
         --body-color: #fff;
         background-color: transparent;
-        border-top: 1px solid #53443D;
+        border-top: 1px solid #1a1a1a;
 
         a {
             color: $white-color;

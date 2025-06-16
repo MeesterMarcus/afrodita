@@ -296,7 +296,7 @@
     }
 
     &:before {
-        background: linear-gradient(270deg, #C28565 0%, rgba(194, 133, 101, 0.00) 100%);
+        background: linear-gradient(270deg, #f0a0c0 0%, rgba(240, 160, 192, 0.00) 100%);
         margin-left: -38rem;
 
         @include xs {
@@ -305,7 +305,7 @@
     }
 
     &:after {
-        background: linear-gradient(90deg, #C28565 0%, rgba(194, 133, 101, 0.00) 100%);
+        background: linear-gradient(90deg, #f0a0c0 0%, rgba(240, 160, 192, 0.00) 100%);
         margin-left: 3rem;
 
         @include xs {
