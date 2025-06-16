@@ -315,8 +315,11 @@ appointment Area
                 </div>
                 <div class="col-lg-6">
                     <div class="appointment-quote-form wow fadeInUp">
-                        <form name="appointment" netlify>
+                        <form name="appointment" netlify netlify-honeypot="bot-field">
                             <input type="hidden" name="form-name" value="appointment" />
+                            <div hidden>
+                                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                            </div>
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <i class="fa-sharp fa-light fa-user"></i>
